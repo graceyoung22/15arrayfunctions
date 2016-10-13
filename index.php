@@ -15,7 +15,16 @@ $array2 = array(
 
 array array_change_key_case ( array $array1 [, int $case = CASE_LOWER ] )
 
-array array_diff_key ( array $array1 , array $array2 )
+array array_diff ( array $array1 , array $array2 )
+
+array array_intersect ( array $array1 , array $array2 )
+
+bool array_key_exists ( mixed $key , array $array1 )
+
+array array_keys ( array $array1 [, mixed $search_value = null [, bool $strict =
+false ]] )
+
+
 
 
 
