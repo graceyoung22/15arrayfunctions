@@ -21,15 +21,27 @@ array array_intersect ( array $array1 , array $array2 )
 
 bool array_key_exists ( mixed $key , array $array1 )
 
-array array_keys ( array $array1 [, mixed $search_value = null [, bool $strict =
-false ]] )
+array array_keys ( array $array1 [, mixed $search_value = null [, bool $strict = false ]] )
 
+int array_push ( array &$array1 , mixed $value1 )
 
+array array_reverse ( array $array1 [, bool $preserve_keys = false ] )
 
+array array_replace ( array $array1 , array $array2  )
 
+mixed array_shift ( array &$array )
 
+array array_slice ( array $array1 , int $offset [, int $length = NULL [, bool $preserve_keys = false ]] )
 
+array array_splice ( array &$array1 , int $offset [, int $length = count($array1)[, mixed $replacement = array() ]] )
 
+number array_sum ( array $array1 )
+
+array array_udiff ( array $array1 , array $array2 , callable $value_compare_func )
+
+array array_values ( array $array1 )
+
+array array_unique ( array $array1 [, int $sort_flags = SORT_STRING ] )
 
 ?>
 
